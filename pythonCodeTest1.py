@@ -1,8 +1,4 @@
-import json  # برای کار با فایل‌های JSON
-import os  # برای پاک کردن کنسول و مدیریت سیستم‌عامل
 
-# تعریف کلاس کتاب
-class Book:
     # مقداردهی اولیه ویژگی‌های کتاب
     def __init__(self, title, author, publication_year):
         self.title = title  # عنوان کتاب
